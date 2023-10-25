@@ -9,7 +9,31 @@
 /* Begin PBXBuildFile section */
 		D27F59192AE7F03600220201 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F59182AE7F03600220201 /* main.cpp */; };
 		D27F59212AE7F09200220201 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27F59202AE7F09200220201 /* OpenGL.framework */; };
-		D27F59232AE7F0A500220201 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27F59222AE7F0A500220201 /* GLUT.framework */; };
+		D27F5C0A2AE7F4AC00220201 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5B212AE7F4AC00220201 /* imgui_widgets.cpp */; };
+		D27F5C122AE7F4AC00220201 /* imgui_impl_opengl2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5B3C2AE7F4AC00220201 /* imgui_impl_opengl2.cpp */; };
+		D27F5C1A2AE7F4AC00220201 /* imgui_impl_glfw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5B492AE7F4AC00220201 /* imgui_impl_glfw.cpp */; };
+		D27F5C1C2AE7F4AC00220201 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5B552AE7F4AC00220201 /* imgui.cpp */; };
+		D27F5C412AE7F4AC00220201 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5BFB2AE7F4AC00220201 /* imgui_tables.cpp */; };
+		D27F5C422AE7F4AC00220201 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5BFC2AE7F4AC00220201 /* imgui_demo.cpp */; };
+		D27F5C432AE7F4AC00220201 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5BFD2AE7F4AC00220201 /* imgui_draw.cpp */; };
+		D27F5C482AE7F98900220201 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C462AE7F98900220201 /* Engine.cpp */; };
+		D27F5C512AE7F9D200220201 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C4D2AE7F9D200220201 /* Model.cpp */; };
+		D27F5C522AE7F9D200220201 /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C4F2AE7F9D200220201 /* Scene.cpp */; };
+		D27F5C582AE7F9E300220201 /* RenderPipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C552AE7F9E300220201 /* RenderPipeline.cpp */; };
+		D27F5C592AE7F9E300220201 /* ComputePipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C562AE7F9E300220201 /* ComputePipeline.cpp */; };
+		D27F5C692AE7F9ED00220201 /* SchemeController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C5E2AE7F9EC00220201 /* SchemeController.cpp */; };
+		D27F5C6A2AE7F9ED00220201 /* Scheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C5F2AE7F9EC00220201 /* Scheme.cpp */; };
+		D27F5C6D2AE7F9ED00220201 /* ViewScheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C652AE7F9ED00220201 /* ViewScheme.cpp */; };
+		D27F5C6E2AE7F9ED00220201 /* PlayScheme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C662AE7F9ED00220201 /* PlayScheme.cpp */; };
+		D27F5C822AE7F9FD00220201 /* PlayStage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C7A2AE7F9FD00220201 /* PlayStage.cpp */; };
+		D27F5C832AE7F9FD00220201 /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C7C2AE7F9FD00220201 /* Stage.cpp */; };
+		D27F5C842AE7F9FD00220201 /* Stage2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C7D2AE7F9FD00220201 /* Stage2.cpp */; };
+		D27F5C852AE7F9FD00220201 /* Stage1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C7F2AE7F9FD00220201 /* Stage1.cpp */; };
+		D27F5C8D2AE7FA0700220201 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C8A2AE7FA0700220201 /* Utils.cpp */; };
+		D27F5C8E2AE7FA0700220201 /* Normals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C8B2AE7FA0700220201 /* Normals.cpp */; };
+		D27F5C8F2AE7FA0700220201 /* Basis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F5C8C2AE7FA0700220201 /* Basis.cpp */; };
+		D27F5C912AE8F31F00220201 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D27F5C902AE8F31F00220201 /* libglfw.3.3.dylib */; };
+		D27F5C922AE8F31F00220201 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D27F5C902AE8F31F00220201 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +46,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		D27F5C932AE8F31F00220201 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D27F5C922AE8F31F00220201 /* libglfw.3.3.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +64,60 @@
 		D27F59182AE7F03600220201 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D27F59202AE7F09200220201 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		D27F59222AE7F0A500220201 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		D27F5B1E2AE7F4AC00220201 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		D27F5B1F2AE7F4AC00220201 /* imstb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
+		D27F5B202AE7F4AC00220201 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		D27F5B212AE7F4AC00220201 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		D27F5B222AE7F4AC00220201 /* imstb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
+		D27F5B3C2AE7F4AC00220201 /* imgui_impl_opengl2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_opengl2.cpp; sourceTree = "<group>"; };
+		D27F5B3D2AE7F4AC00220201 /* imgui_impl_glfw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_glfw.h; sourceTree = "<group>"; };
+		D27F5B492AE7F4AC00220201 /* imgui_impl_glfw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glfw.cpp; sourceTree = "<group>"; };
+		D27F5B532AE7F4AC00220201 /* .editorconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		D27F5B542AE7F4AC00220201 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D27F5B552AE7F4AC00220201 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		D27F5BEF2AE7F4AC00220201 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		D27F5BF82AE7F4AC00220201 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		D27F5BF92AE7F4AC00220201 /* imstb_rectpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
+		D27F5BFA2AE7F4AC00220201 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D27F5BFB2AE7F4AC00220201 /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		D27F5BFC2AE7F4AC00220201 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		D27F5BFD2AE7F4AC00220201 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		D27F5C442AE7F77C00220201 /* imgui_impl_opengl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_opengl2.h; sourceTree = "<group>"; };
+		D27F5C452AE7F97900220201 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		D27F5C462AE7F98900220201 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
+		D27F5C472AE7F98900220201 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		D27F5C492AE7F9B400220201 /* KeyPresses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyPresses.h; sourceTree = "<group>"; };
+		D27F5C4D2AE7F9D200220201 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		D27F5C4E2AE7F9D200220201 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		D27F5C4F2AE7F9D200220201 /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scene.cpp; sourceTree = "<group>"; };
+		D27F5C502AE7F9D200220201 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		D27F5C542AE7F9E300220201 /* RenderPipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderPipeline.h; sourceTree = "<group>"; };
+		D27F5C552AE7F9E300220201 /* RenderPipeline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderPipeline.cpp; sourceTree = "<group>"; };
+		D27F5C562AE7F9E300220201 /* ComputePipeline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComputePipeline.cpp; sourceTree = "<group>"; };
+		D27F5C572AE7F9E300220201 /* ComputePipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputePipeline.h; sourceTree = "<group>"; };
+		D27F5C5C2AE7F9EC00220201 /* PlayScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScheme.h; sourceTree = "<group>"; };
+		D27F5C5D2AE7F9EC00220201 /* SchemeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeController.h; sourceTree = "<group>"; };
+		D27F5C5E2AE7F9EC00220201 /* SchemeController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SchemeController.cpp; sourceTree = "<group>"; };
+		D27F5C5F2AE7F9EC00220201 /* Scheme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scheme.cpp; sourceTree = "<group>"; };
+		D27F5C622AE7F9ED00220201 /* Scheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheme.h; sourceTree = "<group>"; };
+		D27F5C632AE7F9ED00220201 /* ViewScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewScheme.h; sourceTree = "<group>"; };
+		D27F5C652AE7F9ED00220201 /* ViewScheme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewScheme.cpp; sourceTree = "<group>"; };
+		D27F5C662AE7F9ED00220201 /* PlayScheme.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayScheme.cpp; sourceTree = "<group>"; };
+		D27F5C7A2AE7F9FD00220201 /* PlayStage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayStage.cpp; sourceTree = "<group>"; };
+		D27F5C7B2AE7F9FD00220201 /* PlayStage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayStage.h; sourceTree = "<group>"; };
+		D27F5C7C2AE7F9FD00220201 /* Stage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stage.cpp; sourceTree = "<group>"; };
+		D27F5C7D2AE7F9FD00220201 /* Stage2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stage2.cpp; sourceTree = "<group>"; };
+		D27F5C7E2AE7F9FD00220201 /* Stage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage1.h; sourceTree = "<group>"; };
+		D27F5C7F2AE7F9FD00220201 /* Stage1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stage1.cpp; sourceTree = "<group>"; };
+		D27F5C802AE7F9FD00220201 /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		D27F5C812AE7F9FD00220201 /* Stage2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage2.h; sourceTree = "<group>"; };
+		D27F5C872AE7FA0700220201 /* Normals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Normals.h; sourceTree = "<group>"; };
+		D27F5C882AE7FA0700220201 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D27F5C892AE7FA0700220201 /* Basis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basis.h; sourceTree = "<group>"; };
+		D27F5C8A2AE7FA0700220201 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		D27F5C8B2AE7FA0700220201 /* Normals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Normals.cpp; sourceTree = "<group>"; };
+		D27F5C8C2AE7FA0700220201 /* Basis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Basis.cpp; sourceTree = "<group>"; };
+		D27F5C902AE8F31F00220201 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../usr/local/Cellar/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27F59232AE7F0A500220201 /* GLUT.framework in Frameworks */,
+				D27F5C912AE8F31F00220201 /* libglfw.3.3.dylib in Frameworks */,
 				D27F59212AE7F09200220201 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +136,7 @@
 		D27F590C2AE7F03600220201 = {
 			isa = PBXGroup;
 			children = (
+				D27F5B042AE7F4AB00220201 /* imgui */,
 				D27F59172AE7F03600220201 /* flyengine-opengl */,
 				D27F59162AE7F03600220201 /* Products */,
 				D27F591F2AE7F09200220201 /* Frameworks */,
@@ -64,6 +154,15 @@
 		D27F59172AE7F03600220201 /* flyengine-opengl */ = {
 			isa = PBXGroup;
 			children = (
+				D27F5C862AE7FA0700220201 /* Utils */,
+				D27F5C452AE7F97900220201 /* Camera.h */,
+				D27F5C492AE7F9B400220201 /* KeyPresses.h */,
+				D27F5C4C2AE7F9D200220201 /* Modeling */,
+				D27F5C792AE7F9FD00220201 /* Stages */,
+				D27F5C5A2AE7F9EC00220201 /* Schemes */,
+				D27F5C532AE7F9E300220201 /* Pipelines */,
+				D27F5C472AE7F98900220201 /* Engine.h */,
+				D27F5C462AE7F98900220201 /* Engine.cpp */,
 				D27F59182AE7F03600220201 /* main.cpp */,
 			);
 			path = "flyengine-opengl";
@@ -72,10 +171,110 @@
 		D27F591F2AE7F09200220201 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D27F5C902AE8F31F00220201 /* libglfw.3.3.dylib */,
 				D27F59222AE7F0A500220201 /* GLUT.framework */,
 				D27F59202AE7F09200220201 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27F5B042AE7F4AB00220201 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5B1E2AE7F4AC00220201 /* imgui.h */,
+				D27F5B1F2AE7F4AC00220201 /* imstb_textedit.h */,
+				D27F5B202AE7F4AC00220201 /* imconfig.h */,
+				D27F5B212AE7F4AC00220201 /* imgui_widgets.cpp */,
+				D27F5B222AE7F4AC00220201 /* imstb_truetype.h */,
+				D27F5B232AE7F4AC00220201 /* backends */,
+				D27F5B532AE7F4AC00220201 /* .editorconfig */,
+				D27F5B542AE7F4AC00220201 /* .gitignore */,
+				D27F5B552AE7F4AC00220201 /* imgui.cpp */,
+				D27F5BEF2AE7F4AC00220201 /* imgui_internal.h */,
+				D27F5BF82AE7F4AC00220201 /* .gitattributes */,
+				D27F5BF92AE7F4AC00220201 /* imstb_rectpack.h */,
+				D27F5BFA2AE7F4AC00220201 /* LICENSE.txt */,
+				D27F5BFB2AE7F4AC00220201 /* imgui_tables.cpp */,
+				D27F5BFC2AE7F4AC00220201 /* imgui_demo.cpp */,
+				D27F5BFD2AE7F4AC00220201 /* imgui_draw.cpp */,
+			);
+			path = imgui;
+			sourceTree = "<group>";
+		};
+		D27F5B232AE7F4AC00220201 /* backends */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5C442AE7F77C00220201 /* imgui_impl_opengl2.h */,
+				D27F5B3C2AE7F4AC00220201 /* imgui_impl_opengl2.cpp */,
+				D27F5B3D2AE7F4AC00220201 /* imgui_impl_glfw.h */,
+				D27F5B492AE7F4AC00220201 /* imgui_impl_glfw.cpp */,
+			);
+			path = backends;
+			sourceTree = "<group>";
+		};
+		D27F5C4C2AE7F9D200220201 /* Modeling */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5C4E2AE7F9D200220201 /* Model.h */,
+				D27F5C4D2AE7F9D200220201 /* Model.cpp */,
+				D27F5C502AE7F9D200220201 /* Scene.h */,
+				D27F5C4F2AE7F9D200220201 /* Scene.cpp */,
+			);
+			path = Modeling;
+			sourceTree = "<group>";
+		};
+		D27F5C532AE7F9E300220201 /* Pipelines */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5C572AE7F9E300220201 /* ComputePipeline.h */,
+				D27F5C562AE7F9E300220201 /* ComputePipeline.cpp */,
+				D27F5C542AE7F9E300220201 /* RenderPipeline.h */,
+				D27F5C552AE7F9E300220201 /* RenderPipeline.cpp */,
+			);
+			path = Pipelines;
+			sourceTree = "<group>";
+		};
+		D27F5C5A2AE7F9EC00220201 /* Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5C5D2AE7F9EC00220201 /* SchemeController.h */,
+				D27F5C5E2AE7F9EC00220201 /* SchemeController.cpp */,
+				D27F5C622AE7F9ED00220201 /* Scheme.h */,
+				D27F5C5F2AE7F9EC00220201 /* Scheme.cpp */,
+				D27F5C632AE7F9ED00220201 /* ViewScheme.h */,
+				D27F5C652AE7F9ED00220201 /* ViewScheme.cpp */,
+				D27F5C5C2AE7F9EC00220201 /* PlayScheme.h */,
+				D27F5C662AE7F9ED00220201 /* PlayScheme.cpp */,
+			);
+			path = Schemes;
+			sourceTree = "<group>";
+		};
+		D27F5C792AE7F9FD00220201 /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5C7B2AE7F9FD00220201 /* PlayStage.h */,
+				D27F5C7A2AE7F9FD00220201 /* PlayStage.cpp */,
+				D27F5C802AE7F9FD00220201 /* Stage.h */,
+				D27F5C7C2AE7F9FD00220201 /* Stage.cpp */,
+				D27F5C7E2AE7F9FD00220201 /* Stage1.h */,
+				D27F5C7F2AE7F9FD00220201 /* Stage1.cpp */,
+				D27F5C812AE7F9FD00220201 /* Stage2.h */,
+				D27F5C7D2AE7F9FD00220201 /* Stage2.cpp */,
+			);
+			path = Stages;
+			sourceTree = "<group>";
+		};
+		D27F5C862AE7FA0700220201 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D27F5C872AE7FA0700220201 /* Normals.h */,
+				D27F5C882AE7FA0700220201 /* Utils.h */,
+				D27F5C892AE7FA0700220201 /* Basis.h */,
+				D27F5C8A2AE7FA0700220201 /* Utils.cpp */,
+				D27F5C8B2AE7FA0700220201 /* Normals.cpp */,
+				D27F5C8C2AE7FA0700220201 /* Basis.cpp */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,8 +284,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D27F591C2AE7F03600220201 /* Build configuration list for PBXNativeTarget "flyengine-opengl" */;
 			buildPhases = (
-				D27F59112AE7F03600220201 /* Sources */,
+				D27F5C932AE8F31F00220201 /* Embed Libraries */,
 				D27F59122AE7F03600220201 /* Frameworks */,
+				D27F59112AE7F03600220201 /* Sources */,
 				D27F59132AE7F03600220201 /* CopyFiles */,
 			);
 			buildRules = (
@@ -135,7 +335,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27F5C592AE7F9E300220201 /* ComputePipeline.cpp in Sources */,
+				D27F5C8D2AE7FA0700220201 /* Utils.cpp in Sources */,
+				D27F5C412AE7F4AC00220201 /* imgui_tables.cpp in Sources */,
+				D27F5C6E2AE7F9ED00220201 /* PlayScheme.cpp in Sources */,
+				D27F5C432AE7F4AC00220201 /* imgui_draw.cpp in Sources */,
+				D27F5C1C2AE7F4AC00220201 /* imgui.cpp in Sources */,
+				D27F5C692AE7F9ED00220201 /* SchemeController.cpp in Sources */,
+				D27F5C582AE7F9E300220201 /* RenderPipeline.cpp in Sources */,
+				D27F5C522AE7F9D200220201 /* Scene.cpp in Sources */,
+				D27F5C832AE7F9FD00220201 /* Stage.cpp in Sources */,
+				D27F5C482AE7F98900220201 /* Engine.cpp in Sources */,
 				D27F59192AE7F03600220201 /* main.cpp in Sources */,
+				D27F5C8E2AE7FA0700220201 /* Normals.cpp in Sources */,
+				D27F5C6A2AE7F9ED00220201 /* Scheme.cpp in Sources */,
+				D27F5C8F2AE7FA0700220201 /* Basis.cpp in Sources */,
+				D27F5C822AE7F9FD00220201 /* PlayStage.cpp in Sources */,
+				D27F5C852AE7F9FD00220201 /* Stage1.cpp in Sources */,
+				D27F5C422AE7F4AC00220201 /* imgui_demo.cpp in Sources */,
+				D27F5C1A2AE7F4AC00220201 /* imgui_impl_glfw.cpp in Sources */,
+				D27F5C122AE7F4AC00220201 /* imgui_impl_opengl2.cpp in Sources */,
+				D27F5C0A2AE7F4AC00220201 /* imgui_widgets.cpp in Sources */,
+				D27F5C842AE7F9FD00220201 /* Stage2.cpp in Sources */,
+				D27F5C512AE7F9D200220201 /* Model.cpp in Sources */,
+				D27F5C6D2AE7F9ED00220201 /* ViewScheme.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +480,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQU428V4N5;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/GLFW,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/imgui/examples/libs/glfw/lib-vc2010-64",
+					"$(PROJECT_DIR)/imgui/examples/libs/glfw/lib-vc2010-32",
+					/usr/local/Cellar/glfw/3.3.8/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,6 +500,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PQU428V4N5;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/GLFW,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/imgui/examples/libs/glfw/lib-vc2010-64",
+					"$(PROJECT_DIR)/imgui/examples/libs/glfw/lib-vc2010-32",
+					/usr/local/Cellar/glfw/3.3.8/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
